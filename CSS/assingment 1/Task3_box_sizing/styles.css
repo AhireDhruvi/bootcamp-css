@@ -1,0 +1,25 @@
+div {
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid black;
+    margin: 20px;
+  }
+  
+  .content-box {
+    box-sizing: content-box;
+    background: linear-gradient(to right, #ba7e58, #e89a70);
+
+  }
+  
+  .border-box {
+    box-sizing: border-box;
+    background: linear-gradient(to right, #72a383, #80be94, #78d085);
+
+  }
+  
+  .padding-box {
+    box-sizing: padding-box;
+    background: linear-gradient(to right, #918eab, #8379ad, #7e759c);
+
+  }

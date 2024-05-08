@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'firacode variable';
+    src: url('fonts/FiraCode-VariableFont_wght.ttff') format('woff2'),
+         url('fonts/FiraCode-VariableFont_wght.ttf') format('woff2');
+    font-weight: 450;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'firacode variable', sans-serif;
+    font-weight: 650;
+    font-size: 25px;
+    font-style: normal;
+  }

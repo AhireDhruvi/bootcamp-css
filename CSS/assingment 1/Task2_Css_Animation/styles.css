@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .parent {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to right, #862c2c, #9c3535, #c23d3d);
+    border: 2px solid black;
+
+}
+  
+  .box {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .Top-left { Top: 0; left: 0; background-color: rgb(227, 22, 180); border:2px solid #f3ebebfc; }
+  .Top-right { Top: 0; right: 0; background-color: rgb(222, 228, 20) ; border:2px dashed #ede4e4; }
+  .Bottom-left { Bottom: 0; left: 0; background-color: rgb(204, 176, 36); border:2px dotted #f2eaea;}
+  .Bottom-right { Bottom: 0; right: 0; background-color: rgb(46, 195, 168); border:2px dashed #f3eaea;}
+
+  
+  .Center {
+    top: 175px; 
+    left: 175px; 
+    background-color: rgb(213, 106, 12);
+    border: dotted #f2eaea;
+    animation: rotateBox 2s linear infinite; 
+  }
+  
+  @keyframes rotateBox {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
